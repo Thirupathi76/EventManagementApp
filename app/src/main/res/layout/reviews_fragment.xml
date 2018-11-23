@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt42"
+        android:text="Reviews"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="16dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/man"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#bababa"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Based On 60 Review"
+            android:layout_toRightOf="@id/profile_image"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txt43"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Be first among your friend to rate this"
+            android:layout_toRightOf="@id/profile_image"
+            android:textSize="12dp"
+            android:layout_below="@+id/txt43"
+           android:textColor="#bababa"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txt44"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#bababa"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star_border_black_24dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/image13"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image13"
+            android:text="Tap to Rate this"
+            android:layout_marginTop="0dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#bababa"/>
+    
+</LinearLayout>

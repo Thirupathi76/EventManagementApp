@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Event Management</string>
+    <string name="party2">Party 2</string>
+    <string name="party1">Party 1</string>
+
+    <string-array name="marriage">
+        <item>fjkasd</item>
+        <item>fjkasd</item>
+        <item>fjkasd</item>
+        <item>fjkasd</item>
+        <item>fjkasd</item>
+    </string-array>
+    <string-array name="birth">
+        <item>fjkasd</item>
+        <item>fjkasd</item>
+        <item>fjkasd</item>
+        <item>fjkasd</item>
+        <item>fjkasd</item>
+    </string-array>
+    <string name="condition">I would like to receive information via email about future Event white papers, webcasts, videos, events and more. I understand I can withdraw my consent by unsubscribing at any time.
+
+Please refer to our Privacy Policy or Contact Us for more details.</string>
+    <string name="hoteltext">Hotel Abinand Grand, L.B. Nagar, Hyderabad is one among the most preferred affordable luxury hotels in the city. The hotel is strategically located close to all major transport stations and tourist spots in the city.</string>
+    <string name="summary">Hotel Abinand Grand located in L.B. Nagar, Hyderabad is a preferred choice in Wedding Hotels, Cocktail Venues and Banquet Halls. Hall 3 can accommodate upto 100 guests in seating and 150 guests in floating. Hall 2 can accommodate upto 200 guests in seating and 300 guests in floating. Hall 1 can accommodate upto 200 guests in seating and 300 guests in floating.</string>
+    <string name="address">Plot No. 11, Shiva Ganga Colony, Opp. Big Bazar, LB Nagar, Hyderabad, Telangana 500068</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hint_area">Search for the Area, Street Name</string>
+    <string name="hint_location">Search for the delivery location</string>
+    <string name="use_location">Use Current Location</string>
+
+
+    <string name="no_delivery_at_this_location">We are not delivering at this location currently.</string>
+    <string name="select_restaurant">Select a restaurant near to you.</string>
+</resources>
